@@ -22,16 +22,16 @@ TeRFS lifts radio-field synthesis from static scenes to **spatio-temporal** reco
 
 [![Dataset](https://img.shields.io/badge/Dataset-Google%20Drive-4285F4?logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1G9dFRymwJnvbfXiSDdBTYMbHULL88B81?usp=sharing)
 
-**TeRFS-Campus-5.9GHz** lifts RF radiance-field benchmarking from static snapshots into the temporal domain.
+More temporal datasets will be released over time. The comparison and snapshots below are from one of them.
 
 <div align="center">
 
 
-|            | NeRF²                 | **TeRFS**                   |
-| ------------ | ------------------------ | ----------------------------- |
-| Setting    | Single static snapshot | 100 frames, 10 s sequence   |
-| Scatterers | All stationary         | 6 cars + 1 drone, in motion |
-| Scene      | Small indoor           | Urban outdoor               |
+|            | NeRF²                 | **TeRFS**                       |
+| ---------- | ---------------------- | ------------------------------- |
+| Setting    | Single static snapshot | Dynamic temporal sequence       |
+| Scatterers | All stationary         | Moving objects (e.g., vehicles) |
+| Scene      | Small indoor           | Large urban outdoor             |
 
 </div>
 
