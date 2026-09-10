@@ -1,6 +1,8 @@
 <h1 align="center">TeRFS: Temporal-Evolving Radio Field Synthesis</h1>
 
-<h3 align="center">IEEE GLOBECOM 2026</h3>
+
+<h2 align="center">IEEE GLOBECOM 2026</h3>
+
 
 <p align="center">
   Pengyang Zhang, Wenlihan Lu, Shijian Gao<br/>
@@ -39,8 +41,6 @@ TeRFS builds on this directional expressiveness with per-lobe temporal envelopes
 
 ### Results
 
-Evaluated on TeRFS-Dynamic using a single RTX 4090.
-
 <div align="center">
 <table align="center">
   <thead>
@@ -55,6 +55,8 @@ Evaluated on TeRFS-Dynamic using a single RTX 4090.
 </table>
 </div>
 
+Evaluated on TeRFS-Dynamic using a single RTX 4090.
+
 <p align="center">
   <img src="assets/budget_quality.png" width="70%" alt="Single-frame reconstruction quality versus training time: TeRFS reaches 19.45 dB mean PSNR in 0.32 hours"/>
 </p>
@@ -66,8 +68,6 @@ Evaluated on TeRFS-Dynamic using a single RTX 4090.
 ### Dataset
 
 The **TeRFS-Dynamic** dataset captures radio-field evolution in a simulated outdoor campus, where multiple vehicles and a UAV create and block propagation paths.
-
-[Download Dataset](https://drive.google.com/drive/folders/1G9dFRymwJnvbfXiSDdBTYMbHULL88B81?usp=sharing)
 
 <div align="center">
 <table align="center">
@@ -82,13 +82,21 @@ The **TeRFS-Dynamic** dataset captures radio-field evolution in a simulated outd
 </table>
 </div>
 
+[Download Dataset](https://drive.google.com/drive/folders/1G9dFRymwJnvbfXiSDdBTYMbHULL88B81?usp=sharing)
+
 <p align="center">
-  <img src="assets/dataset_snapshots.png" width="70%" alt="Four snapshots of the TeRFS-Dynamic campus scene with vehicles moving near the roadside transmitter"/>
+  <img src="assets/dataset_snapshots.png" width="60%" alt="Four snapshots of the TeRFS-Dynamic campus scene with vehicles moving near the roadside transmitter"/>
 </p>
 
 <p align="center">
   <em>Four timesteps showing multipath reorganization as vehicles pass near the roadside transmitter.</em>
 </p>
+
+### Future Work
+
+- **Refining ASG representations** for more accurate and efficient modeling of dynamic radio environments.
+- **Understanding multipath evolution** through deeper insights into the underlying propagation mechanisms.
+- **Extending to diverse scenarios** with varied environments and mobility patterns.
 
 ### Code
 
